@@ -1,0 +1,14 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/kirill/esp/v5.4.1/esp-idf",
+  "idf.toolsPath": "/Users/kirill/.espressif",
+  "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-ftdi.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c3"
+  },
+  "idf.port": "/dev/tty.usbserial-1130",
+  "idf.flashType": "UART"
+}

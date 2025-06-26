@@ -1,0 +1,5 @@
+dependencies:
+  zorxx/dht: "^1.0.1"
+  
+  espressif/coap: "^4.3.1"
+  # Add other dependencies if needed

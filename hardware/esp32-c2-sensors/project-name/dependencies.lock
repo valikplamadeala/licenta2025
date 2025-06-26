@@ -1,0 +1,28 @@
+dependencies:
+  espressif/coap:
+    component_hash: a5d1b781b15980d9af136b5e63315dd5f5ec00215cc755f395ad2fb4977c7668
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 4.3.5~3
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+  zorxx/dht:
+    component_hash: 6a5e699b15509d99b90352694e23beb6646855486eb3bafefd1d50058d474e98
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.0.1
+direct_dependencies:
+- espressif/coap
+- zorxx/dht
+manifest_hash: 6785cd723d42e86b63a04a8b736d05eb67836d1656fb8cd6c319cb8ec1b7afef
+target: esp32c2
+version: 2.0.0

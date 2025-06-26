@@ -1,0 +1,16 @@
+# Smart Home IoT System - Raspberry Pi 3 B+ Requirements
+# Python 3.9+ required
+
+# CoAP Protocol Support
+aiocoap>=0.4.7
+
+# HTTP Server Framework
+aiohttp>=3.9.0
+
+# Async SQLite Database
+aiosqlite>=0.19.0
+
+# Additional dependencies that might be needed
+asyncio-mqtt>=0.13.0
+cbor2>=5.4.6
+dtlssocket>=0.1.16

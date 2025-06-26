@@ -1,0 +1,21 @@
+dependencies:
+  espressif/coap:
+    component_hash: a5d1b781b15980d9af136b5e63315dd5f5ec00215cc755f395ad2fb4977c7668
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 4.3.5~3
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+direct_dependencies:
+- espressif/coap
+- idf
+manifest_hash: 17594e83b2fa32a14b0ec71992131c02f479b4fe4e9180b314b8f0e63d2cb403
+target: esp32c3
+version: 2.0.0

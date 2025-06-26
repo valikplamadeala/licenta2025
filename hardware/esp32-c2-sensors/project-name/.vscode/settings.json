@@ -1,0 +1,15 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/kirill/esp/v5.4.1/esp-idf",
+  "idf.pythonInstallPath": "/opt/homebrew/bin/python3",
+  "idf.openOcdConfigs": [
+    "board/esp32c2-bridge.cfg"
+  ],
+  "idf.port": "/dev/tty.usbserial-1120",
+  "idf.toolsPath": "/Users/kirill/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c2"
+  },
+  "idf.flashType": "UART",
+  "C_Cpp.errorSquiggles": "disabled"
+}
