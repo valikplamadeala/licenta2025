@@ -1,7 +1,7 @@
 // src/api/smartHomeApi.ts
 import axios from "axios";
 
-const BASE_URL = "http://192.168.4.2:8080/api";
+const BASE_URL = "http://192.168.3.86:8080/api";
 
 export const getStatus = () => axios.get(`${BASE_URL}/status`);
 export const getTemperature = () => axios.get(`${BASE_URL}/temperature`);

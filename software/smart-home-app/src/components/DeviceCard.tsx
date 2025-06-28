@@ -16,7 +16,7 @@ export default function DeviceCard({ name, icon, isOn, onToggle }: Props) {
   return (
     isOn ? (
       <LinearGradient
-        colors={colors.cardActiveGradient}
+        colors={[colors.cardActiveGradient[0], colors.cardActiveGradient[1]]}
         style={[styles.card, styles.cardOn]}
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
